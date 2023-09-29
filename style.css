@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+header{
+    width: 100%;
+   
+   
+}
+
+
+header img{
+    width: 30px;
+    height: 30px;
+    background-color: none;
+    float: left;
+    margin-left: none;
+    padding-left: 10px;
+}
+.postheader{
+    width: 100%;
+    height: auto;
+    /*background-image: url(IMG_2781.jpeg);*/
+    text-align: center;
+}
+.postheader h1{
+    font-size: 60px;
+}
+
+body{
+    width: 100%;
+    margin: auto;
+    font-family: 'Nunito', sans-serif;
+    background:linear-gradient(to right,rgba(115, 138, 228, 0.5),rgba(101, 238, 56,0.5)) ;
+}
+
+ 
+section{
+    width: 50%;
+    height: auto;
+    margin: auto;
+}   
+
+
+section form{
+    width: 78%;
+    background:linear-gradient(to right,rgba(115, 138, 228, 0.5),rgba(101, 238, 56,0.5));
+    padding: 40px;
+    border-radius: 20px;
+   
+}
+section .form .input{
+    display: flex;
+}
+
+
+section form .input{
+    display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+  /*border: solid red;*/
+  margin-bottom: 20px;
+}
+
+
+section .each-item input{
+    width: 90%;
+    padding-left: 10px;
+    border: none;
+    border-radius: 20px;
+    height: 48px;
+    margin: 10px 0;
+}
+
+/*section .form .dropdown{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: solid blue;
+    margin-bottom: 100px;
+    
+}*/
+
+section .input select{
+    width: 98%;
+   padding-left: 10px;
+    font-weight:500;
+    margin: 8px 0;
+    border: none;
+    border-radius: 20px;
+    height: 48px;
+}
+
+section form textarea{
+    width: 98%;
+    height: 300px;
+    border-radius: 20px;
+    padding-left: 10px;
+    border: none;
+    font-weight:bold ;
+    margin-top: 20px;
+}
+
+section form label{
+    font-weight:bold ;
+    padding-top: 10px;
+}
+section form button{
+    width: 100%;
+    background-color: white;
+    border-radius: 15px;
+    font-weight: bold;
+    height: 50px;
+    font-size: large;
+    color: rgb(104, 128, 223);
+    border: none;
+    
+}
+
+@media only screen and (max-width:320px){
+    .postheader h1{
+        margin: 20px;
+    }
+
+    .postheader h2{
+        margin: 5px;
+
+    }
+
+    section{
+        width: 100%;
+        margin-right:20px;
+      height: auto;
+
+    }
+    section form{
+        width: 100%;
+        margin-right: 20px;
+    }
+    
+
+
+}
+
+
+@media only screen and (max-width:720px) {
+
+    section{
+        width: 50%;
+        margin:auto;
+      height: auto;
+
+    }
+
+    
+    section form textarea{
+        height: 200px;
+        width: 100%;
+    }
+
+
+    section .form .input {
+        display: flex;
+        flex-direction: column;
+        height: 180px;
+        width:98%;
+        border-radius: 20px;
+        /*border: solid red;*/
+        margin-bottom: 10px;
+        padding-bottom: 0px;
+    }
+    section .form label{
+        margin-bottom: 5px;
+    }
+    section .dropdown{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        height: 200px;
+        /*border:solid blue;*/
+    }
+
+    .postheader h1{
+        font-size: 40px;
+    }
+    .postheader h2{
+        font-size: medium;
+    }
+
+    
+}
+
+
+
+    
+    
+
